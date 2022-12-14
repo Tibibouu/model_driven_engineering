@@ -1,0 +1,20 @@
+@startuml
+
+class User
+User : String uid
+User : String displayName
+User : String photoUrl
+
+class Car
+Car : String name
+Car : String modele
+
+
+Class Facture
+Facture : String name
+Facture : String scan_url
+
+User "1" -- "0..*" Car : extern
+Car "1" -- "0..*" Facture : contain
+
+@enduml
