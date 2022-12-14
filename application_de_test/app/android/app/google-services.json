@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "447611326483",
+    "project_id": "idmeseo",
+    "storage_bucket": "idmeseo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447611326483:android:2cff29a19721b061fbafe6",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447611326483-39jpo1ou3ul8ij1h9e1344nkqo7142i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHUOKB0jtJ62J6L4CaNsS_VFr_lQiw2Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447611326483-39jpo1ou3ul8ij1h9e1344nkqo7142i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
