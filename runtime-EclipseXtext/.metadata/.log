@@ -587,3 +587,68 @@ Contains: Configuration directory does not exist: /home/thibault/Documents/SE/S9
 
 !ENTRY org.eclipse.ui.navigator 4 0 2023-01-24 15:39:27.717
 !MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Test". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+!SESSION 2023-01-24 17:06:31.127 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=11.0.17
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/model_driven_engineering/Malary_Foezon_EcoreToDart/../runtime-EclipseXtext -dev file:/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/model_driven_engineering/Malary_Foezon_EcoreToDart/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.pde.core 4 0 2023-01-24 17:06:40.840
+!MESSAGE Configuration directory does not exist: /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/
+
+!ENTRY org.eclipse.pde.core 4 0 2023-01-24 17:06:40.841
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred while resolving the target contents
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:696)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:605)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(PluginModelManager.java:1070)
+	at org.eclipse.pde.internal.core.RequiredPluginsInitializer.initialize(RequiredPluginsInitializer.java:50)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3145)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2093)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3789)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3271)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3435)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2520)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:535)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:269)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2384)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.updateCache(Storage2UriMapperJavaImpl.java:496)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl$4.run(Storage2UriMapperJavaImpl.java:699)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl.doInitializeCache(Storage2UriMapperJavaImpl.java:711)
+	at org.eclipse.xtext.ui.resource.Storage2UriMapperJavaImpl$3.run(Storage2UriMapperJavaImpl.java:678)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Contains: Configuration directory does not exist: /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2023-01-24 17:06:40.842
+!MESSAGE Problems occurred while resolving the target contents
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-01-24 17:06:40.842
+!MESSAGE Configuration directory does not exist: /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/
+
+!ENTRY org.eclipse.pde.core 4 0 2023-01-24 17:06:40.844
+!MESSAGE Configuration directory does not exist: /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/
+
+!ENTRY org.eclipse.oomph.ui 4 0 2023-01-24 17:06:48.925
+!MESSAGE java.lang.ExceptionInInitializerError
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at org.eclipse.oomph.setup.ui.recorder.RecorderManager.<clinit>(RecorderManager.java:121)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:216)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:23)
+	at org.eclipse.oomph.internal.ui.EarlyStart.run(EarlyStart.java:119)
+	at org.eclipse.oomph.internal.ui.EarlyStart$1.run(EarlyStart.java:98)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: BundleContext is no longer valid org.eclipse.oomph.p2.core_1.23.0.v20220822-1127 [707]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:1031)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.ungetService(BundleContextImpl.java:701)
+	at org.eclipse.oomph.p2.internal.core.AgentManagerImpl.getCurrentAgent(AgentManagerImpl.java:194)
+	at org.eclipse.oomph.p2.core.P2Util.getCurrentProvisioningAgent(P2Util.java:112)
+	at org.eclipse.oomph.setup.internal.core.util.SetupCoreUtil.<clinit>(SetupCoreUtil.java:157)
+	... 6 more

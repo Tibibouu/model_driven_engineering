@@ -8,6 +8,13 @@ import org.eclipse.xtext.generator.AbstractGenerator
 import org.eclipse.xtext.generator.IFileSystemAccess2
 import org.eclipse.xtext.generator.IGeneratorContext
 
+import malary_Foezon_EcoreToDart.BDD
+import malary_Foezon_EcoreToDart.Collection
+import malary_Foezon_EcoreToDart.Documents
+import malary_Foezon_EcoreToDart.Champ
+import malary_Foezon_EcoreToDart.TypeBDD
+import malary_Foezon_EcoreToDart.TypeChamp
+
 /**
  * Generates code from your model files on save.
  * 
@@ -16,10 +23,43 @@ import org.eclipse.xtext.generator.IGeneratorContext
 class DartGeneratorGenerator extends AbstractGenerator {
 
 	override void doGenerate(Resource resource, IFileSystemAccess2 fsa, IGeneratorContext context) {
-//		fsa.generateFile('greetings.txt', 'People to greet: ' + 
-//			resource.allContents
-//				.filter(Greeting)
-//				.map[name]
-//				.join(', '))
+//		val BDDObject = resource.allContents.toIterable.filter(typeof(BDD)).head
+//		val CollectionObject = resource.allContents.toIterable.filter(typeof(Collection)).head
+//		val DocumentsObject = resource.allContents.toIterable.filter(typeof(Documents)).head
+//		val ChampObject = resource.allContents.toIterable.filter(typeof(Champ)).head
+//				
+//		val BDDTypeAttribut = BDDObject.type
+//		val CollectionTitreAttribut = CollectionObject.titre
+//		val DocumentsIdAttribut = DocumentsObject.id
+//		val ChampChampAttribut = ChampObject.champ
+
+		val BDDObject = resource.allContents.toIterable.filter(typeof(BDD)).head
+		
+		switch BDDObject {
+			case TypeBDD.FIREBASE : 
+			{
+				
+				for(Collection CollectionObjects : resource.allContents.toIterable.filter(typeof(Collection))) {
+                  fsa.generateFile(CollectionObjects.titre + ".dart", 
+                  '''
+                      	import ...
+                      	import myApp.''' + CollectionObjects.titre + '''
+                      	
+                      	abstract class ... implements ... {
+                      		static Serializer<''' + CollectionObjects.titre + '''> get serializer => _$''' + CollectionObjects.titre + '''RecordSerializer;
+                      		
+                      		@BuiltValueField(wireName: 'display_name')
+                      		  String? get displayName;
+                      		...
+                      	}
+                      	''')
+            	}
+			}
+			default : {}
+		}
+		
+		if (BDDObject == TypeBDD.FIREBASE) {
+			
+		}
 	}
 }
