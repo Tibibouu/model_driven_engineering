@@ -1,0 +1,53 @@
+!SESSION 2023-01-11 15:36:06.446 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=11.0.17
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/../runtime-EclipseXtext -dev file:/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-01-11 15:36:31.097
+!MESSAGE Setup tasks were performed during startup updating 344 preferences. See '/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.ui.navigator 4 0 2023-01-11 15:36:51.803
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Test". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+!SESSION 2023-01-11 16:01:35.818 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=11.0.17
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/../runtime-EclipseXtext -dev file:/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-01-11 16:01:59.818
+!MESSAGE Setup tasks were performed during startup updating 344 preferences. See '/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2023-01-11 16:11:12.049 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=11.0.17
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/../runtime-EclipseXtext -dev file:/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-01-11 16:11:51.927
+!MESSAGE Setup tasks were performed during startup updating 344 preferences. See '/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2023-01-11 16:13:08.988 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=11.0.17
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/../runtime-EclipseXtext -dev file:/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-01-11 16:13:42.941
+!MESSAGE Setup tasks were performed during startup updating 344 preferences. See '/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/org.eclipse.oomph.setup/setup.log' for details
+!SESSION 2023-01-11 16:29:57.981 -----------------------------------------------
+eclipse.buildId=4.25.0.I20220831-1800
+java.version=11.0.17
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/../runtime-EclipseXtext -dev file:/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/dev.properties -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-01-11 16:30:26.922
+!MESSAGE Setup tasks were performed during startup updating 344 preferences. See '/home/thibault/Documents/SE/S9/Ingenieurie_dirigee_par_les_models/projet/.metadata/.plugins/org.eclipse.pde.core/Launch Runtime Eclipse/org.eclipse.oomph.setup/setup.log' for details

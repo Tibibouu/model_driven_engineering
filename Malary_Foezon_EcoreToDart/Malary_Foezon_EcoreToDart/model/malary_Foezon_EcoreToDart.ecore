@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="malary_Foezon_EcoreToDart" nsURI="http://www.example.org/malary_Foezon_EcoreToDart"
+    nsPrefix="malary_Foezon_EcoreToDart">
+  <eClassifiers xsi:type="ecore:EClass" name="BDD">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//TypeBDD"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collections" upperBound="-1"
+        eType="#//Collection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TypeBDD">
+    <eLiterals name="FIREBASE" literal="FIREBASE"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Collection">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="titre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="documents" upperBound="-1"
+        eType="#//Documents" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Documents">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="champs" upperBound="-1"
+        eType="#//Champ" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collections" upperBound="-1"
+        eType="#//Collection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TypeChamp">
+    <eLiterals name="STRING"/>
+    <eLiterals name="BOOLEAN" value="1"/>
+    <eLiterals name="MAP" value="2"/>
+    <eLiterals name="ARRAY" value="3"/>
+    <eLiterals name="NULL" value="4"/>
+    <eLiterals name="TIMESTAMP" value="5"/>
+    <eLiterals name="GEOPOINT" value="6"/>
+    <eLiterals name="REFERENCE" value="7"/>
+    <eLiterals name="NUMBER" value="8"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Champ">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="champ" eType="#//TypeChamp"/>
+  </eClassifiers>
+</ecore:EPackage>

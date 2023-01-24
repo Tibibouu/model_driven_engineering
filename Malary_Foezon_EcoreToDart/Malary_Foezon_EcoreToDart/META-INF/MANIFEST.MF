@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: Malary_Foezon_EcoreToDart;singleton:=true
+Automatic-Module-Name: Malary_Foezon_EcoreToDart
+Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: malary_Foezon_EcoreToDart,
+ malary_Foezon_EcoreToDart.impl,
+ malary_Foezon_EcoreToDart.util
+Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy

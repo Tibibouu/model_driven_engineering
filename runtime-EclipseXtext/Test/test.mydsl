@@ -1,0 +1,57 @@
+BDD {
+    type FIREBASE
+    collections {
+        Collection {
+            titre Users
+            documents {
+                Documents {
+                    id User1
+                    champs {
+                        Champ {
+                            champ STRING
+                        },
+                        Champ {
+                            champ NUMBER
+                        }
+                    }
+                    collections {
+				        Collection {
+				            titre Users
+				            documents {
+				                Documents {
+				                    id User1
+				                    champs {
+				                        Champ {
+				                            champ STRING
+				                        },
+				                        Champ {
+				                            champ NUMBER
+				                        }
+				                    }
+				                    collections {
+								        Collection {
+								            titre Users
+								            documents {
+								                Documents {
+								                    id User1
+								                    champs {
+								                        Champ {
+								                            champ STRING
+								                        },
+								                        Champ {
+								                            champ NUMBER
+								                        }
+								                    }
+								                }
+								            }
+								        }
+								    }
+				                }
+				            }
+				        }
+				    }
+                }
+            }
+        }
+    }
+}

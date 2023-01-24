@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;malary_Foezon_EcoreToDart&apos; to &apos;org.xtext.example.dartdsl/src&apos;&#x0A;- Original project: &apos;org.xtext.example.dartdsl&apos;&#x0A;- Destination element: &apos;org.xtext.example.dartdsl/src&apos;&#x0A;- Original element: &apos;malary_Foezon_EcoreToDart&apos;&#x0A;- Update references to refactored element" description="Move folder" destination="/src" element1="malary_Foezon_EcoreToDart" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1673447716082" units="0" version="1.0"/>
+</session>

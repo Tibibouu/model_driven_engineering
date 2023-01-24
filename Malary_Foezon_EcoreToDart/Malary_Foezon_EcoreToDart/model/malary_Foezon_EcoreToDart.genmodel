@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/Malary_Foezon_EcoreToDart/src-gen" creationIcons="false"
+    editDirectory="/Malary_Foezon_EcoreToDart.edit/src-gen" editorDirectory="/Malary_Foezon_EcoreToDart.editor/src-gen"
+    modelPluginID="Malary_Foezon_EcoreToDart" modelName="Malary_Foezon_EcoreToDart"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>malary_Foezon_EcoreToDart.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Malary_Foezon_EcoreToDart" disposableProviderFactory="true"
+      ecorePackage="malary_Foezon_EcoreToDart.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="malary_Foezon_EcoreToDart.ecore#//TypeBDD">
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeBDD/FIREBASE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="malary_Foezon_EcoreToDart.ecore#//TypeChamp">
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/STRING"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/BOOLEAN"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/MAP"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/ARRAY"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/NULL"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/TIMESTAMP"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/GEOPOINT"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/REFERENCE"/>
+      <genEnumLiterals ecoreEnumLiteral="malary_Foezon_EcoreToDart.ecore#//TypeChamp/NUMBER"/>
+    </genEnums>
+    <genClasses ecoreClass="malary_Foezon_EcoreToDart.ecore#//BDD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute malary_Foezon_EcoreToDart.ecore#//BDD/type"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference malary_Foezon_EcoreToDart.ecore#//BDD/collections"/>
+    </genClasses>
+    <genClasses ecoreClass="malary_Foezon_EcoreToDart.ecore#//Collection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute malary_Foezon_EcoreToDart.ecore#//Collection/titre"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference malary_Foezon_EcoreToDart.ecore#//Collection/documents"/>
+    </genClasses>
+    <genClasses ecoreClass="malary_Foezon_EcoreToDart.ecore#//Documents">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute malary_Foezon_EcoreToDart.ecore#//Documents/id"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference malary_Foezon_EcoreToDart.ecore#//Documents/champs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference malary_Foezon_EcoreToDart.ecore#//Documents/collections"/>
+    </genClasses>
+    <genClasses ecoreClass="malary_Foezon_EcoreToDart.ecore#//Champ">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute malary_Foezon_EcoreToDart.ecore#//Champ/champ"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

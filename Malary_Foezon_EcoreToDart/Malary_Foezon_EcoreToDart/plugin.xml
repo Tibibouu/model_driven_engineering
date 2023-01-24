@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated malary_Foezon_EcoreToDart -->
+      <package
+            uri="http://www.example.org/malary_Foezon_EcoreToDart"
+            class="malary_Foezon_EcoreToDart.Malary_Foezon_EcoreToDartPackage"
+            genModel="model/malary_Foezon_EcoreToDart.genmodel"/>
+   </extension>
+
+</plugin>
